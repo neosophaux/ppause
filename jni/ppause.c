@@ -2,5 +2,5 @@
 
 __attribute__((constructor))
 void m() {
-    raise(SIGINT);
+    raise(SIGSTOP);
 }
